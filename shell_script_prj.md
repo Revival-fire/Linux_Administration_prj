@@ -82,7 +82,7 @@ for server in "${servers[@]}"; do
     check_success "Update, Nginx and apache  installation on $server"
 done
 
-echo "Deployment complete."
+echo "Script execution complete! "
 ```
 
 ### Explanation of the script above is below 
@@ -106,7 +106,7 @@ echo "Deployment complete."
 
 1. **Make the Script Executable**:
    ```bash
-   chmod +x deploy_servers.sh
+   chmod +x deploy.sh
    ```
 
 2. **Run the Script**:
@@ -120,7 +120,7 @@ echo "Deployment complete."
 
 3. **Example**:
    ```bash
-   ./deploy_servers.sh -s "192.168.1.10 192.168.1.11" -p 22 -u admin
+   ./deploy.sh -s "192.168.12.11 192.168.11.21" -p 22 -u admin
    ```
 
 ### Error Handling
