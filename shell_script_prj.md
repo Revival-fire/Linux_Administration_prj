@@ -111,7 +111,7 @@ echo "Deployment complete."
 
 2. **Run the Script**:
    ```bash
-   ./deploy_servers.sh -s "server1.example.com server2.example.com" -p 2222 -u username
+   ./deploy_servers.sh -s "server1.example.com server2.example.com" -p 22 -u username
    ```
 
    - **`-s`**: (Required) A space-separated list of server addresses or hostnames.
@@ -120,7 +120,7 @@ echo "Deployment complete."
 
 3. **Example**:
    ```bash
-   ./deploy_servers.sh -s "192.168.1.10 192.168.1.11" -p 2222 -u admin
+   ./deploy_servers.sh -s "192.168.1.10 192.168.1.11" -p 22 -u admin
    ```
 
 ### Error Handling
