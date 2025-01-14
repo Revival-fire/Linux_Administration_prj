@@ -1,6 +1,6 @@
 ## LAMP LAB (GUIDE)
 
-### Below are screen shots of all the steps taken and the results of the LAMP project as outlined in the lab guide.
+### Below are screen shots of all the steps taken and the results of th   e LAMP project as outlined in the lab guide.
 
 ![images](./images/pr5-cmd1.PNG)
 
